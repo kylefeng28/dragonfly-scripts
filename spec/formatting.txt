@@ -1,0 +1,23 @@
+snake_case
+""" snake <dictation> """
+format_snake("some words") => "some_words"
+
+camelCase
+""" camel <dictation> """
+format_camel("some words") => "someWords"
+
+PascalCase (StudleyCaps)
+""" pascal <dictation> """
+format_pascal("some words") => "SomeWords"
+
+SCREAMING_SNAKE
+""" screaming <dictation> """
+format_screaming("some words") => "SOME_WORDS"
+
+spine-case (lisp-case)
+""" spine <dictation> """
+format_spine("some words") => "some-words"
+
+Kebab-Case
+""" kebab <dictation> ""
+format_kebab("some words") => "Some-Words"
